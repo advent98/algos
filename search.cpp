@@ -10,9 +10,29 @@ using namespace std;
 \brief Search data for the first occurrence of key
 \param [in] key The value being searched for
 \param [in] data The data set that will be searched
-\returns location of key if found or -1 if not found
-*/
-int linearSearch(auto data, auto key);//prototype
+\returns location of key if found or -1 if not found*/
+	
+
+	int linearSearch(auto data, auto key);//prototype
+
+{
+
+		for(int i = 0; i <Data.size(); i++)
+	         {
+
+			if(Data[i] == key)
+		   {
+
+			return i;
+		
+		}//end for
+
+		return -1;
+	}
+}
+
+
+
 
 
 int main()
@@ -70,31 +90,8 @@ int main()
 
 
 
-	int linearsearch(auto Data, auto key)
 
-	{
-
-		for(int i = 0; i <Data.size(); i++)
-	         {
-
-			if(Data[i] == key)
-		   {
-
-			return i;
-		
-		}//end for
-
-		return -1;
-	}
-}
-
-
-
-
-
-
-
-
+	
 
 
 
