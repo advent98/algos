@@ -34,7 +34,7 @@ using namespace std;
        cin>>input;
     }
 
-   cout<<endl<<"["<<inputs.size()<<" values read from input source]"<<endl<<endl;
+   cout<<endl<<"["<<inputs.size()<<" value(s) read from input source]"<<endl<<endl;
 
   if(inputs.size() == 0)//no input
   {
