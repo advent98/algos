@@ -13,23 +13,25 @@ using namespace std;
 \returns location of key if found or -1 if not found*/
 	
 
-	int linearSearch(auto data, auto key);//prototype
+	//int linearSearch(auto data, auto key);//prototype
 
-{
 
-		for(int i = 0; i <Data.size(); i++)
-	         {
+		int linearSearch(auto data, auto key)//prototype
+	{
+
+			for(int i = 0; i <Data.size(); i++)
+	      	{
 
 			if(Data[i] == key)
-		   {
+		 {
 
 			return i;
 		
 		}//end for
 
-		return -1;
+			return -1;
+	
 	}
-}
 
 
 
